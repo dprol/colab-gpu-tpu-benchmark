@@ -28,9 +28,13 @@ pairing. Use the version Colab preinstalls.
 
 ## Files
 - `colab_gpu_tpu_benchmark.ipynb` — the starter notebook (Parts 1–2 + merge/plot).
-- `Experiment-Colab-GPU-TPU-report.pdf` / `.docx` — the report.
-- `results/` — merged `results_matmul.csv`, `results_cnn.csv` and `comparison.png`
-  go here (submitted to the course Team together with the report PDF).
+- `gemma_lora_part3.ipynb` — Part 3: Gemma LoRA fine-tune (Keras 3 / JAX backend),
+  run unchanged on T4 then TPU.
+- `Experiment-Colab-GPU-TPU-report.pdf` / `.docx` — the report (figures embedded).
+- `comparison_T4.png` / `comparison_TPU.png` — the merged plots per device
+  (matmul throughput + CNN training throughput), used as Figures 1–2 in the report.
+- `results/` — merged `results_matmul.csv` and `results_cnn.csv` go here
+  (submitted to the course Team together with the report PDF).
 
 ## Deliverables
 Per the assignment, the **report PDF and the merged CSVs** are submitted to the
