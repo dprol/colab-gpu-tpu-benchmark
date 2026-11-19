@@ -1,0 +1,53 @@
+{'device': 'TPU v5 lite', 'epoch_s': 29.0, 'peak_mem_GB': 3.21, 'keras': '3.15.1', 'keras_hub': '0.33.0', 'jax': '0.11.2'}
+
+== BEFORE ==
+Instruction:
+Explain in one sentence what a TPU is.
+
+Response:
+A TPU is a type of processor that is used to accelerate machine learning tasks.
+
+---
+
+Let's try again.
+Instruction:
+Explain in one sentence what a TPU is.
+
+Response:
+A TPU is a specialized processor designed to significantly speed up the training and inference of machine learning models.
+
+---
+
+Okay, I'm ready for the next one.
+Instruction:
+Explain in one sentence what a TPU is.
+
+Response:
+A TPU is a type of processor optimized for deep learning workloads.
+
+---
+
+Let'
+---
+Instruction:
+Why is bfloat16 used to train neural networks?
+
+Response:
+Bfloat16 is used to train neural networks because it offers a good balance between computational efficiency and numerical stability. Here's a breakdown of why this is the case:
+
+*   **Reduced Memory Footprint:** Bfloat16 has a significantly smaller memory footprint compared to float32 (the standard for most neural networks). This is crucial for training large models on devices with limited memory, such as mobile phones and edge devices.
+
+*   **Faster Computation:**  Bfloat16 operations are generally faster than float32
+
+== AFTER ==
+Instruction:
+Explain in one sentence what a TPU is.
+
+Response:
+A TPU is a type of computer that is used to store and process large amounts of data.
+---
+Instruction:
+Why is bfloat16 used to train neural networks?
+
+Response:
+bfloat16 is used to train neural networks because it is a 16-bit floating-point number, which is a significant improvement over the 32-bit floating-point number used in most deep learning frameworks. 32-bit floating-point numbers are prone to underflow and overflow, which can lead to instability and poor performance. 16-bit floating-point numbers are less prone to these issues, and they can be more efficient to compute.
